@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kedai Kopi Jaden – Menu, Lokasi & Pesan Online</title>
+    <meta
+      name="description"
+      content="Kedai Kopi Jaden: kopi, matcha, dan pastry untuk mahasiswa dan pekerja muda. Lihat menu, harga, jam buka, lokasi, dan pesan lewat WhatsApp, GoFood, atau ShopeeFood."
+    />
+    <link rel="icon" href="assets/logo/logo-jaden.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#beranda">Lewati ke konten</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="#beranda"
+          aria-label="Kedai Kopi Jaden – ke beranda"
+        >
+          <img src="assets/logo/logo-jaden.svg" alt="" width="40" height="40" />
+          <h4>Jaden</h4>
+        </a>
+
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Buka atau tutup menu navigasi"
+        />
+        <label for="nav-toggle" class="nav-burger" aria-hidden="true"
+          ><span></span
+        ></label>
+
+        <nav class="nav" aria-label="Navigasi utama">
+          <ul>
+            <li><a href="#beranda">Home</a></li>
+            <li><a href="#tentang">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#lokasi">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="beranda" class="hero container" aria-labelledby="hero-title">
+        <div class="hero-text">
+          <p class="eyebrow">Kopi, matcha &amp; pastry sejak 2026</p>
+          <h1 id="hero-title">
+            Kedai Kopi dari Jaden, Tempat Ngopi Paling Nyaman
+          </h1>
+          <p class="lead">
+            Tempat nongkrong favorit mahasiswa dan pekerja muda. Colokan banyak,
+            Wi-Fi kencang, dan kopinya bikin betah ngerjain tugas sampai tuntas.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#lokasi">
+              <img
+                src="assets/images/icons/lokasi.svg"
+                alt=""
+                width="18"
+                height="18"
+              />Kunjungi Sekarang
+            </a>
+            <a class="btn btn-outline" href="#menu">Lihat Menu</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            src="/assets/images/hero/jaden.jpg"
+            alt="Suasana Kedai Kopi Jaden dengan lampu gantung dan meja kayu"
+            width="600"
+            height="600"
+          />
+        </div>
+      </section>
+
+      <section
+        id="tentang"
+        class="about container"
+        aria-labelledby="about-title"
+      >
+        <div class="about-media">
+          <img
+            src="/assets/images/about/Foto-about.jpg"
+            alt="Sudut kedai dengan meja kayu, dua cangkir kopi, dan rak biji kopi"
+            width="600"
+            height="600"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text">
+          <p class="eyebrow eyebrow-bold">Cerita kami</p>
+          <h2 id="about-title">Tentang Jaden</h2>
+          <p>
+            Kedai Kopi Jaden lahir dari kebiasaan sederhana: mencari tempat
+            ngopi yang enak, nyaman, dan tidak bikin kantong menjerit. Kami
+            ingin jadi tempat singgah bagi mahasiswa dan pekerja muda yang butuh
+            suasana tenang untuk fokus, atau sekadar ngobrol santai.
+          </p>
+          <p>
+            Biji kopi kami disangrai dan diseduh dengan teliti. Selain kopi,
+            kami menyajikan matcha dan pastry yang dibuat segar setiap hari,
+            dengan harga yang ramah untuk dompet mahasiswa.
+          </p>
+          <ul class="values">
+            <li>Biji kopi pilihan, diseduh segar</li>
+            <li>Harga ramah untuk mahasiswa</li>
+            <li>Wi-Fi kencang &amp; banyak colokan</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="menu" class="menu container" aria-labelledby="menu-title">
+        <h2 id="menu-title">Something to Sruput</h2>
+        <p class="section-sub">Menu unggulan Jaden</p>
+
+        <input type="checkbox" id="show-more" class="show-more-toggle" />
+
+        <ul class="menu-grid">
+          <li class="card">
+            <img
+              src="/assets/images/menu/Foto-Kopi-Susu-Jaden.jpeg"
+              alt="Es kopi susu Jaden di gelas bening"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Kopi Susu Jaden</h3>
+                <span class="price">Rp22.000</span>
+              </div>
+              <p>
+                Espresso, susu segar, dan gula aren dalam satu gelas dingin.
+              </p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Kopi Susu Jaden – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="/assets/images/menu/Foto-Americano.jpeg"
+              alt="Secangkir americano panas"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Americano</h3>
+                <span class="price">Rp18.000</span>
+              </div>
+              <p>Double shot espresso dengan air panas, pahit yang bersih.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Americano – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="/assets/images/menu/Foto-matcha-latte.jpg"
+              alt="Secangkir matcha latte hijau"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Matcha Latte</h3>
+                <span class="price">Rp25.000</span>
+              </div>
+              <p>Matcha premium dengan susu yang creamy, manis secukupnya.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Matcha Latte – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="/assets/images/menu/Foto-croissant.jpg"
+              alt="Croissant butter keemasan"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Croissant Butter</h3>
+                <span class="price">Rp20.000</span>
+              </div>
+              <p>Renyah di luar, lembut di dalam. Teman pas untuk kopi.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Croissant Butter – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+
+          <li class="card card-extra">
+            <img
+              src="/assets/images/menu/Foto-Cappucino.jpeg"
+              alt="Secangkir cappuccino dengan latte art"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Cappuccino</h3>
+                <span class="price">Rp23.000</span>
+              </div>
+              <p>Espresso dengan foam susu tebal dan lembut.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Cappuccino – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card card-extra">
+            <img
+              src="/assets/images/menu/Foto-Iced-Matcha.jpg"
+              alt="Es matcha hijau di gelas bening"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Es Matcha</h3>
+                <span class="price">Rp24.000</span>
+              </div>
+              <p>Matcha dingin segar dengan topping foam susu.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Es Matcha – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card card-extra">
+            <img
+              src="/assets/images/menu/Foto-cinnamon-roll.jpg"
+              alt="Cinnamon roll hangat"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Cinnamon Roll</h3>
+                <span class="price">Rp22.000</span>
+              </div>
+              <p>Gulungan roti kayu manis hangat dengan glaze manis.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Cinnamon Roll – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+          <li class="card card-extra">
+            <img
+              src="/assets/images/menu/Foto-cold-brew.jpeg"
+              alt="Segelas cold brew hitam"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Cold Brew</h3>
+                <span class="price">Rp24.000</span>
+              </div>
+              <p>Diseduh dingin 16 jam, rasa halus dan rendah asam.</p>
+              <a
+                class="btn-order"
+                href="#pesan"
+                aria-label="Pesan Cold Brew – lihat cara pesan online"
+                >Order</a
+              >
+            </div>
+          </li>
+        </ul>
+
+        <label for="show-more" class="show-more">
+          <span class="when-closed">Show more</span>
+          <span class="when-open">Show less</span>
+          <img
+            src="assets/images/icons/arrow-down.svg"
+            alt=""
+            width="20"
+            height="20"
+          />
+        </label>
+      </section>
+
+      <section
+        id="lokasi"
+        class="contact container"
+        aria-labelledby="contact-title"
+      >
+        <p class="kicker">kuy ke JADEN</p>
+        <div class="contact-grid">
+          <div class="contact-text">
+            <h2 id="contact-title">Panggil Jaden</h2>
+            <p>
+              Mau tanya menu, booking meja untuk kerja kelompok, atau sekadar
+              cari arah? Hubungi kami atau langsung mampir. Pintu Jaden selalu
+              terbuka.
+            </p>
+
+            <div class="contact-cols">
+              <div>
+                <h3>Kontak</h3>
+                <ul class="contact-list">
+                  <li>
+                    <img
+                      src="assets/images/icons/telepon.svg"
+                      alt=""
+                      width="20"
+                      height="20"
+                    /><a href="tel:+6281234567890">+62 812-3456-7890</a>
+                  </li>
+                  <li>
+                    <img
+                      src="assets/images/icons/email.svg"
+                      alt=""
+                      width="20"
+                      height="20"
+                    /><a href="mailto:kedaijaden@gmail.com"
+                      >kedaijaden@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <img
+                      src="assets/images/icons/instagram.svg"
+                      alt=""
+                      width="20"
+                      height="20"
+                    /><a
+                      href="https://instagram.com/kedaijaden"
+                      target="_blank"
+                      rel="noopener"
+                      >@kedaijaden</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>Alamat</h3>
+                <address>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&amp;query=Politeknik+Negeri+Jakarta+Depok"
+                    target="_blank"
+                    rel="noopener"
+                    >Jl. Prof. DR. G.A. Siwabessy, Kukusan, Beji, Kota
+                    Depok<span class="sr-only"> (buka di Google Maps)</span></a
+                  >
+                </address>
+              </div>
+            </div>
+
+            <h3 class="hours-title">Jam Operasional</h3>
+            <dl class="hours">
+              <div>
+                <dt>Senin – Jumat</dt>
+                <dd>08:00 – 20:00</dd>
+              </div>
+              <div>
+                <dt>Sabtu – Minggu</dt>
+                <dd>09:00 – 21:00</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="map">
+            <iframe
+              title="Peta lokasi Kedai Kopi Jaden"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Politeknik%20Negeri%20Jakarta&amp;hl=id&amp;z=15&amp;output=embed"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="faq">
+          <h3>Pertanyaan yang sering ditanyakan</h3>
+          <details>
+            <summary>Apakah bisa pesan antar?</summary>
+            <p>
+              Bisa. Kamu bisa pesan lewat GoFood atau ShopeeFood, atau pesan via
+              WhatsApp lalu ambil sendiri (pick-up).
+            </p>
+          </details>
+          <details>
+            <summary>Apakah ada Wi-Fi dan colokan?</summary>
+            <p>Ada. Wi-Fi gratis dan colokan tersedia di hampir setiap meja.</p>
+          </details>
+          <details>
+            <summary>Apakah bisa bayar langsung lewat website?</summary>
+            <p>
+              Belum. Website ini hanya menampilkan informasi. Pemesanan dan
+              pembayaran dilakukan lewat WhatsApp atau aplikasi pesan antar.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="pesan" class="order container" aria-labelledby="order-title">
+        <h2 id="order-title">Pesan Online</h2>
+        <p class="section-sub">
+          Pilih cara pesan yang paling praktis buat kamu.
+        </p>
+        <div class="order-row">
+          <a
+            class="order-btn gofood"
+            href="https://gofood.co.id"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="assets/images/icons/gofood.svg"
+              alt=""
+              width="24"
+              height="24"
+            />GoFood
+          </a>
+          <a
+            class="order-btn shopee"
+            href="https://shopee.co.id/m/shopeefood"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="assets/images/icons/shopeefood.svg"
+              alt=""
+              width="24"
+              height="24"
+            />ShopeeFood
+          </a>
+          <a
+            class="order-btn pickup"
+            href="https://wa.me/6281234567890?text=Halo%20Kedai%20Kopi%20Jaden%2C%20saya%20mau%20pesan%20untuk%20pick-up."
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="assets/images/icons/pickup.svg"
+              alt=""
+              width="24"
+              height="24"
+            />Pick-up
+          </a>
+        </div>
+        <p class="note">
+          Pick-up: pesan via WhatsApp, lalu ambil di kedai tanpa antre.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#beranda">
+            <img
+              src="assets/logo/logo-jaden-light.svg"
+              alt=""
+              width="40"
+              height="40"
+            />
+            <span>Jaden</span>
+          </a>
+          <p>Kopi, matcha &amp; pastry untuk teman ngerjain tugas.</p>
+        </div>
+        <nav aria-label="Navigasi footer">
+          <h3>Navigasi</h3>
+          <ul>
+            <li><a href="#beranda">Home</a></li>
+            <li><a href="#tentang">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#lokasi">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h3>Kontak</h3>
+          <ul>
+            <li><a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+            <li>
+              <a href="mailto:kedaijaden@gmail.com">kedaijaden@gmail.com</a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/kedaijaden"
+                target="_blank"
+                rel="noopener"
+                >@kedaijaden</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright container">
+        &copy; 2026 Kedai Kopi Jaden. Proyek simulasi mata kuliah Desain Web,
+        Politeknik Negeri Jakarta.
+      </p>
+    </footer>
+  </body>
+</html>
